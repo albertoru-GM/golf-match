@@ -1,0 +1,32 @@
+export const mockCourses = [
+    {
+        id: '1',
+        name: 'Real Club de Golf El Prat',
+        location: 'Barcelona, España',
+        image_url: 'https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=800&auto=format&fit=crop',
+        rating: 4.5,
+        holes: 45,
+        par: 72,
+        amenities: ['Driving Range', 'Pro Shop', 'Restaurante', 'Piscina'],
+    },
+    {
+        id: '2',
+        name: 'Golf Santander',
+        location: 'Santander, España',
+        image_url: 'https://images.unsplash.com/photo-1535131749006-b7f58c99034b?q=80&w=800&auto=format&fit=crop',
+        rating: 4.2,
+        holes: 18,
+        par: 72,
+        amenities: ['Driving Range', 'Escuela de Golf', 'Restaurante'],
+    },
+    {
+        id: '3',
+        name: 'Valderrama Golf Club',
+        location: 'Sotogrande, España',
+        image_url: 'https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=800&auto=format&fit=crop',
+        rating: 4.8,
+        holes: 18,
+        par: 71,
+        amenities: ['Pro Shop', 'Restaurante de Lujo', 'Caddy Master'],
+    },
+];
