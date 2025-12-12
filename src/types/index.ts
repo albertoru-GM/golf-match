@@ -21,6 +21,10 @@ export interface Course {
   // Optional fields that might be calculated or joined
   slope?: number;
   price?: number;
+  lat?: number;
+  lng?: number;
+  booking_url?: string;
+  address?: string;
 }
 
 export interface TeeTime {

@@ -34,7 +34,11 @@ create table courses (
   par integer default 72,
   holes integer default 18,
   description text,
-  amenities text[]
+  amenities text[],
+  lat numeric,
+  lng numeric,
+  booking_url text,
+  address text
 );
 
 -- RLS for courses

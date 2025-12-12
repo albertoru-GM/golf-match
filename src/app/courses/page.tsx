@@ -1,8 +1,9 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Search, Filter, Loader2 } from 'lucide-react';
+import { Search, Filter, Loader2, MapPin } from 'lucide-react';
 import CourseCard from '@/components/golf/CourseCard';
+import CourseMap from '@/components/golf/CourseMap';
 import { supabase } from '@/lib/supabase';
 import { Course } from '@/types';
 
@@ -12,8 +13,25 @@ export default function CoursesPage() {
     const [courses, setCourses] = useState<Course[]>([]);
     const [loading, setLoading] = useState(true);
     const [searchTerm, setSearchTerm] = useState('');
+    const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
 
     useEffect(() => {
+        // Fetch User Location
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(
+                (position) => {
+                    setUserLocation({
+                        lat: position.coords.latitude,
+                        lng: position.coords.longitude
+                    });
+                },
+                (error) => {
+                    console.warn('Geolocation access denied:', error);
+                    // Default to Spain (Madrid) if prompt denied
+                }
+            );
+        }
+
         const fetchCourses = async () => {
             // Check if Supabase is configured
             const isSupabaseConfigured = process.env.NEXT_PUBLIC_SUPABASE_URL &&
@@ -34,7 +52,34 @@ export default function CoursesPage() {
                     .order('rating', { ascending: false });
 
                 if (error) throw error;
-                setCourses(data || []);
+
+                // If DB is empty, use mock data for demo
+                if (!data || data.length === 0) {
+                    console.log('Database empty, falling back to mock courses');
+                    setCourses(mockCourses);
+                    return;
+                }
+
+                // Merge with mock data if lat/lng missing in DB (temporary hybrid approach)
+                const mergedData = (data || []).map(c => {
+                    const mock = mockCourses.find(m => m.name === c.name);
+
+                    // Force overrides for sensitive fields if mock exists
+                    // This fixes the "kitchen image" issue by prioritizing the curated mock image
+                    let finalImage = c.image_url;
+                    if (mock?.image_url) {
+                        finalImage = mock.image_url;
+                    }
+
+                    return {
+                        ...c,
+                        image_url: finalImage,
+                        lat: c.lat || mock?.lat,
+                        lng: c.lng || mock?.lng,
+                        booking_url: c.booking_url || mock?.booking_url
+                    };
+                });
+                setCourses(mergedData);
             } catch (error) {
                 console.warn('Supabase fetch failed, using mock data:', error);
                 setCourses(mockCourses);
@@ -79,6 +124,11 @@ export default function CoursesPage() {
                         <Filter className="w-5 h-5 text-gray-600 dark:text-gray-300" />
                     </button>
                 </div>
+            </div>
+
+            {/* Map Section */}
+            <div className="max-w-4xl mx-auto px-4 mt-8">
+                <CourseMap courses={filteredCourses} userLocation={userLocation} />
             </div>
 
             {/* Courses Grid */}

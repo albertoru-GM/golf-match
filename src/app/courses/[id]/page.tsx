@@ -39,14 +39,29 @@ export default function CourseDetailPage({ params }: CoursePageProps) {
             }
 
             try {
-                const { data, error } = await supabase
+                // Add a timeout promise to prevent infinite hanging
+                const fetchPromise = supabase
                     .from('courses')
                     .select('*')
                     .eq('id', params.id)
                     .single();
 
+                const timeoutPromise = new Promise((_, reject) =>
+                    setTimeout(() => reject(new Error('Timeout')), 2500)
+                );
+
+                const { data, error } = await Promise.race([fetchPromise, timeoutPromise]) as any;
+
                 if (error) throw error;
-                setCourse(data);
+
+                // Merge with mock data if needed
+                const mockCourse = mockCourses.find(c => c.name === data.name);
+                const mergedCourse = {
+                    ...data,
+                    booking_url: data.booking_url || mockCourse?.booking_url
+                };
+
+                setCourse(mergedCourse);
             } catch (error) {
                 console.error('Error fetching course:', error);
                 const mockCourse = mockCourses.find(c => c.id === params.id);
@@ -62,6 +77,14 @@ export default function CourseDetailPage({ params }: CoursePageProps) {
             fetchCourse();
         }
     }, [params.id]);
+
+    const handleBooking = () => {
+        if (course?.booking_url) {
+            window.open(course.booking_url, '_blank');
+        } else {
+            alert('Enlace de reserva no disponible. Por favor contacta con el club directamente.');
+        }
+    };
 
     if (loading) {
         return (
@@ -171,23 +194,14 @@ export default function CourseDetailPage({ params }: CoursePageProps) {
                         <span className="text-2xl font-bold text-gray-900 dark:text-white">65€</span>
                     </div>
                     <button
-                        onClick={() => setShowBookingModal(true)}
-                        className="bg-[var(--golf-green)] text-white px-8 py-3 rounded-full font-bold shadow-lg hover:bg-[var(--golf-green-dark)] transition-colors transform active:scale-95"
+                        onClick={handleBooking}
+                        className="bg-[var(--golf-green)] text-white px-8 py-3 rounded-full font-bold shadow-lg hover:bg-[var(--golf-green-dark)] transition-colors transform active:scale-95 flex items-center"
                     >
-                        Reservar Tee Time
+                        Reservar (Web del Club)
+                        <Star className="w-4 h-4 ml-2" />
                     </button>
                 </div>
             </div>
-
-            {/* Booking Modal */}
-            {showBookingModal && (
-                <BookingModal
-                    courseId={course.id}
-                    courseName={course.name}
-                    price={65}
-                    onClose={() => setShowBookingModal(false)}
-                />
-            )}
         </main>
     );
 }
