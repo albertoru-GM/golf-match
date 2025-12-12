@@ -58,8 +58,8 @@ export async function searchGolfCoursesInBounds(
                 id: `osm-${el.id}`, // Unique ID for OSM items
                 name: name,
                 location: location,
-                // Use a reliable generic placeholder since OSM doesn't have images
-                image_url: 'https://images.unsplash.com/photo-1535131749006-b7f58c99034b?q=80&w=800&auto=format&fit=crop',
+                // Use a reliable local placeholder
+                image_url: '/courses/course-1.jpg',
                 rating: 4.0, // Default rating
                 holes: 18, // Assumption
                 par: 72, // Assumption
