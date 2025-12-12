@@ -1,5 +1,19 @@
 export const mockCourses = [
     {
+        id: '0', // High priority
+        name: 'Valderrama Golf Club',
+        location: 'Sotogrande, España',
+        image_url: '/courses/course-5.jpg', // Using premium local image
+        rating: 4.9,
+        holes: 18,
+        par: 71,
+        amenities: ['Championship Course', 'Pro Shop', 'Restaurant', 'Caddy'],
+        lat: 36.2797,
+        lng: -5.3339,
+        booking_url: 'https://valderrama.com/visitor-information/',
+        address: 'Avda. de los Cortijos, s/n, 11310 Sotogrande, Cádiz'
+    },
+    {
         id: '1',
         name: 'Real Club de Golf El Prat',
         location: 'Barcelona, España',

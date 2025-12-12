@@ -61,23 +61,31 @@ export default function CoursesPage() {
                 }
 
                 // Merge with mock data if lat/lng missing in DB (temporary hybrid approach)
+                // Merge with mock data if lat/lng missing in DB (temporary hybrid approach)
                 const mergedData = (data || []).map(c => {
-                    const mock = mockCourses.find(m => m.name === c.name);
+                    // Normalize names for comparison (case-insensitive, trim)
+                    const mock = mockCourses.find(m =>
+                        m.name.toLowerCase().trim() === c.name.toLowerCase().trim() ||
+                        // Handle partial matches for tricky ones
+                        c.name.toLowerCase().includes(m.name.toLowerCase()) ||
+                        m.name.toLowerCase().includes(c.name.toLowerCase())
+                    );
 
-                    // Force overrides for sensitive fields if mock exists
-                    // This fixes the "kitchen image" issue by prioritizing the curated mock image
-                    let finalImage = c.image_url;
-                    if (mock?.image_url) {
-                        finalImage = mock.image_url;
+                    // AGGRESSIVE OVERRIDE: If we have a mock, we use ITS cleaned data for sensitive fields
+                    // This ensures "kitchen images" from DB or bad links never appear if we have a mock equivalent.
+                    if (mock) {
+                        return {
+                            ...c,
+                            image_url: mock.image_url, // Force local clean image
+                            booking_url: mock.booking_url, // Force deep link
+                            lat: c.lat || mock.lat,
+                            lng: c.lng || mock.lng,
+                            // Ensure other fields are clean if missing
+                            amenities: c.amenities || mock.amenities
+                        };
                     }
 
-                    return {
-                        ...c,
-                        image_url: finalImage,
-                        lat: c.lat || mock?.lat,
-                        lng: c.lng || mock?.lng,
-                        booking_url: c.booking_url || mock?.booking_url
-                    };
+                    return c;
                 });
                 setCourses(mergedData);
             } catch (error) {
