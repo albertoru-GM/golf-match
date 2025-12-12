@@ -41,7 +41,7 @@ export default function Home() {
         <div className="relative container mx-auto px-6 py-20 md:py-32">
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-              El Playtomic del Golf en España
+              La App de Reservas de Golf nº1
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-green-50">
               Reserva tee times, mejora tu juego y conecta con golfistas de tu nivel

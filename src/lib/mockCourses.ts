@@ -10,7 +10,7 @@ export const mockCourses = [
         amenities: ['Driving Range', 'Pro Shop', 'Restaurante', 'Piscina'],
         lat: 41.5636,
         lng: 2.0359,
-        booking_url: 'https://www.realclubdegolfelprat.com/reservas',
+        booking_url: 'https://www.realclubdegolfelprat.com/reservas/teetimes',
         address: 'Plans de Bonvilar, 17, 08227 Terrassa, Barcelona'
     },
     {
@@ -24,7 +24,7 @@ export const mockCourses = [
         amenities: ['Driving Range', 'Escuela de Golf', 'Restaurante'],
         lat: 40.3951,
         lng: -3.8757,
-        booking_url: 'https://www.golfsantander.es/reservas',
+        booking_url: 'https://www.golfsantander.es/reservas/greenfees',
         address: 'Ciudad Financiera Banco Santander, 28660 Boadilla del Monte, Madrid'
     },
     {
@@ -38,7 +38,7 @@ export const mockCourses = [
         amenities: ['Driving Range', 'Escuela de Excelencia', 'Gourmet'],
         lat: 40.5050,
         lng: -3.7250,
-        booking_url: 'https://centronacionalgolf.com/reservas/',
+        booking_url: 'https://centronacionalgolf.com/reservas/public',
         address: 'Calle Arroyo del Monte, 5, 28035 Madrid'
     },
     {
@@ -52,7 +52,7 @@ export const mockCourses = [
         amenities: ['Piscina', 'Tenis', 'Hípica', 'Restaurante'],
         lat: 40.4414,
         lng: -3.7547,
-        booking_url: 'https://www.ccvm.es/deportes/golf/reservas',
+        booking_url: 'https://www.ccvm.es/deportes/golf/reservas-online',
         address: 'Ctra. de Castilla, km 2, 28040 Madrid'
     },
     {
@@ -66,7 +66,7 @@ export const mockCourses = [
         amenities: ['Exclusivo', 'Piscina', 'Tenis', 'Privado'],
         lat: 40.4578,
         lng: -3.7539,
-        booking_url: 'https://www.rcph.es/',
+        booking_url: 'https://www.rcph.es/reservas',
         address: 'Av. de Miraflores, s/n, 28035 Madrid'
     },
     {
@@ -80,7 +80,7 @@ export const mockCourses = [
         amenities: ['Pitch & Putt', 'Padel', 'Driving Range'],
         lat: 40.5286,
         lng: -3.6493,
-        booking_url: 'https://www.golfpark.es/reservas',
+        booking_url: 'https://www.golfpark.es/reservas-online',
         address: 'Av. de Europa, 2, 28108 Alcobendas, Madrid'
     },
     {
@@ -94,7 +94,7 @@ export const mockCourses = [
         amenities: ['4 Campos', 'Spa', 'Tenis', 'Gimnasio'],
         lat: 40.5192,
         lng: -3.6417,
-        booking_url: 'https://www.golflamoraleja.com/',
+        booking_url: 'https://www.golflamoraleja.com/reservas',
         address: 'Paseo de la Marquesa Viuda de Aldama, 50, 28109 Alcobendas, Madrid'
     },
     {
@@ -108,7 +108,7 @@ export const mockCourses = [
         amenities: ['Hípica', 'Tenis', 'Piscina', 'Familiar'],
         lat: 40.6078,
         lng: -3.5867,
-        booking_url: 'https://www.rshecc.es/',
+        booking_url: 'https://www.rshecc.es/reservas',
         address: 'Ctra. de Burgos, km 26,400, 28709 San Sebastián de los Reyes, Madrid'
     },
     {
@@ -122,7 +122,7 @@ export const mockCourses = [
         amenities: ['Hotel', 'Eventos', 'Tenis'],
         lat: 40.6186,
         lng: -3.5042,
-        booking_url: 'https://www.golfretamares.com/reservas',
+        booking_url: 'https://www.golfretamares.com/reservas-greenfees',
         address: 'Calle Croacia, s/n, 28130 Alalpardo, Madrid'
     },
     {
@@ -136,7 +136,7 @@ export const mockCourses = [
         amenities: ['Hotel', 'Restaurante', 'Top Tracer'],
         lat: 40.5292,
         lng: -3.3333,
-        booking_url: 'https://www.encingolf.com/reservas',
+        booking_url: 'https://www.encingolf.com/reservas-online',
         address: 'Autovía A-2, Km 35, 600, 28805 Alcalá de Henares, Madrid'
     },
     {
