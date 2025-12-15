@@ -3,7 +3,7 @@ export const mockCourses = [
         id: '0', // High priority
         name: 'Valderrama Golf Club',
         location: 'Sotogrande, España',
-        image_url: '/courses/valderrama.jpg',
+        image_url: '/courses/valderrama.jpg', // Now safe (generic golf if download failed)
         rating: 4.9,
         holes: 18,
         par: 71,
@@ -45,7 +45,7 @@ export const mockCourses = [
         id: '3',
         name: 'Centro Nacional de Golf',
         location: 'Madrid, España',
-        image_url: '/courses/course-3.jpg', // Using solid generic as backup for http url
+        image_url: '/courses/centro-nacional.jpg',
         rating: 4.3,
         holes: 18,
         par: 72,
@@ -59,7 +59,7 @@ export const mockCourses = [
         id: '4',
         name: 'Club de Campo Villa de Madrid',
         location: 'Madrid, España',
-        image_url: '/courses/villa-madrid.jpg',
+        image_url: '/courses/villa-madrid.jpg', // Now safe
         rating: 4.7,
         holes: 36,
         par: 71,
@@ -73,7 +73,7 @@ export const mockCourses = [
         id: '5',
         name: 'Real Club de la Puerta de Hierro',
         location: 'Madrid, España',
-        image_url: '/courses/puerta-hierro.jpg',
+        image_url: '/courses/puerta-hierro.jpg', // Now safe
         rating: 4.9,
         holes: 36,
         par: 72,
@@ -87,7 +87,7 @@ export const mockCourses = [
         id: '6',
         name: 'Golf Park',
         location: 'Alcobendas, Madrid',
-        image_url: '/courses/golf-park.jpg',
+        image_url: '/courses/golf-park.jpg', // Now safe
         rating: 4.0,
         holes: 9,
         par: 27,
@@ -101,7 +101,7 @@ export const mockCourses = [
         id: '7',
         name: 'Golf La Moraleja',
         location: 'Alcobendas, Madrid',
-        image_url: '/courses/la-moraleja.jpg',
+        image_url: '/courses/la-moraleja.jpg', // Now safe
         rating: 4.8,
         holes: 72,
         par: 72,
@@ -115,7 +115,7 @@ export const mockCourses = [
         id: '8',
         name: 'Real Sociedad Hípica Española Club de Campo',
         location: 'San Sebastián de los Reyes, Madrid',
-        image_url: '/courses/rshecc.jpg',
+        image_url: '/courses/rshecc.jpg', // Now safe
         rating: 4.6,
         holes: 36,
         par: 72,
@@ -129,7 +129,7 @@ export const mockCourses = [
         id: '9',
         name: 'Club de Golf Retamares',
         location: 'Alalpardo, Madrid',
-        image_url: '/courses/retamares.jpg',
+        image_url: '/courses/retamares.jpg', // Now safe
         rating: 4.4,
         holes: 18,
         par: 72,
@@ -143,7 +143,7 @@ export const mockCourses = [
         id: '10',
         name: 'El Encín Golf Hotel',
         location: 'Alcalá de Henares, Madrid',
-        image_url: '/courses/el-encin.jpg',
+        image_url: '/courses/el-encin.jpg', // Now safe
         rating: 4.5,
         holes: 18,
         par: 72,
