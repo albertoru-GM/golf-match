@@ -1,0 +1,1140 @@
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'html' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ html--sites--default--files--styles--flexslider-full--public--instalaciones--golf-recorrido-negro-hoyo-1.jpg.html.twig
+   ▪️ html--sites--default--files--styles--flexslider-full--public--instalaciones.html.twig
+   ▪️ html--sites--default--files--styles--flexslider-full--public.html.twig
+   ▪️ html--sites--default--files--styles--flexslider-full.html.twig
+   ▪️ html--sites--default--files--styles.html.twig
+   ▪️ html--sites--default--files.html.twig
+   ▪️ html--sites--default.html.twig
+   ▪️ html--sites.html.twig
+   ✅ html.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/layout/html.html.twig' -->
+<!DOCTYPE html>
+<html lang="es" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" />
+<link rel="canonical" href="https://www.ccvm.es/" />
+<link rel="shortlink" href="https://www.ccvm.es/" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<style>div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-withdraw-tab {background: #049467} div#sliding-popup.eu-cookie-withdraw-wrapper { background: transparent; } #sliding-popup h1, #sliding-popup h2, #sliding-popup h3, #sliding-popup p, #sliding-popup label, #sliding-popup div, .eu-cookie-compliance-more-button, .eu-cookie-compliance-secondary-button, .eu-cookie-withdraw-tab { color: #ffffff;} .eu-cookie-withdraw-tab { border-color: #ffffff;}</style>
+<link rel="icon" href="/sites/default/files/faviconRCCVM.png" type="image/png" />
+<script>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};</script>
+
+    <title>Página no encontrada | Real Club de Campo Villa de Madrid</title>
+    <link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/align.module.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/fieldgroup.module.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/container-inline.module.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/clearfix.module.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/details.module.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/hidden.module.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/item-list.module.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/js.module.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/nowrap.module.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/position-container.module.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/reset-appearance.module.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/resize.module.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/system-status-counter.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/system-status-report-counters.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/system-status-report-general-info.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/tablesort.module.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/menu_icons_1763986930.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/modules/contrib/eu_cookie_compliance/css/eu_cookie_compliance.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/modules/contrib/addtoany/css/addtoany.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/core/assets/vendor/normalize-css/normalize.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/custom.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/action-links.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/breadcrumb.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/button.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/container-inline.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/details.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/exposed-filters.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/field.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/form.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/icons.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/inline-form.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/item-list.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/link.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/links.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/menu.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/more-link.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/pager.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/tabledrag.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/tableselect.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/tablesort.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/tabs.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/textarea.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/ui-dialog.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/noticias.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/deportes.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/responsive.css?t68d0u" />
+<link rel="stylesheet" media="all" href="/themes/ccvm/css/components/messages.css?t68d0u" />
+<link rel="stylesheet" media="all" href="//cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" media="all" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src=https://www.googletagmanager.com/gtag/js?id=G-ZJXHDSBN0W></script>
+    <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+     gtag('config', 'G-ZJXHDSBN0W');
+    </script>
+  </head>
+  <body class="path-sites">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Pasar al contenido principal
+    </a>
+    
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'off_canvas_page_wrapper' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable9/templates/content/off-canvas-page-wrapper.html.twig' -->
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'page' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ page--404.html.twig
+   ▪️ page--4xx.html.twig
+   ▪️ page--sites--default--files--styles--flexslider-full--public--instalaciones--golf-recorrido-negro-hoyo-1.jpg.html.twig
+   ▪️ page--sites--default--files--styles--flexslider-full--public--instalaciones.html.twig
+   ▪️ page--sites--default--files--styles--flexslider-full--public.html.twig
+   ▪️ page--sites--default--files--styles--flexslider-full.html.twig
+   ▪️ page--sites--default--files--styles.html.twig
+   ▪️ page--sites--default--files.html.twig
+   ▪️ page--sites--default.html.twig
+   ▪️ page--sites.html.twig
+   ✅ page.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/layout/page.html.twig' -->
+<div class="layout-container">
+
+  <header role="banner">
+          
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ region--preheader.html.twig
+   ✅ region.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/layout/region.html.twig' -->
+  <div class="region region-preheader">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ block--ccvm-enlacesheader-2.html.twig
+   ▪️ block--system-menu-block--enlaces-header.html.twig
+   ✅ block--system-menu-block.html.twig
+   ▪️ block--system.html.twig
+   ▪️ block.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block--system-menu-block.html.twig' -->
+<nav role="navigation" aria-labelledby="block-ccvm-enlacesheader-2-menu" id="block-ccvm-enlacesheader-2" class="block block-menu navigation menu--enlaces-header">
+            
+  <span class="visually-hidden" id="block-ccvm-enlacesheader-2-menu">Enlaces Header</span>
+  
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'menu__enlaces_header' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ menu--enlaces-header.html.twig
+   ✅ menu.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/navigation/menu.html.twig' -->
+
+              <ul class="menu">
+                    <li class="menu-icon menu-icon-13 menu-item">
+        <a href="/search" data-drupal-link-system-path="search">Buscador</a>
+              </li>
+                <li class="menu-icon menu-icon-11 menu-item">
+        <a href="/perfil-del-contratante" data-drupal-link-system-path="node/3108">Perfil del contratante</a>
+              </li>
+                <li class="menu-icon menu-icon-12 menu-item">
+        <a href="https://eu2.golfmanager.com/ccvm">Reservas</a>
+              </li>
+                <li class="menu-icon menu-icon-74 menu-item">
+        <a href="/lista-de-espera" data-drupal-link-system-path="node/4546">Lista de espera</a>
+              </li>
+        </ul>
+  
+
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/navigation/menu.html.twig' -->
+
+
+  </nav>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block--system-menu-block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ block--ccvm-zonaabonados.html.twig
+   ▪️ block--block-content--3f5b194a-b983-44d7-808b-37e890d172d1.html.twig
+   ▪️ block--block-content--id-view--ccvm-zonaabonados--full.html.twig
+   ▪️ block--block-content--id--ccvm-zonaabonados.html.twig
+   ▪️ block--block-content--view-type--basic--full.html.twig
+   ▪️ block--block-content--type--basic.html.twig
+   ▪️ block--block-content--view--full.html.twig
+   ▪️ block--block-content.html.twig
+   ✅ block.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block.html.twig' -->
+<div id="block-ccvm-zonaabonados" class="block block-block-content block-block-content3f5b194a-b983-44d7-808b-37e890d172d1">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ field--block-content--body--basic.html.twig
+   ▪️ field--block-content--body.html.twig
+   ▪️ field--block-content--basic.html.twig
+   ▪️ field--body.html.twig
+   ✅ field--text-with-summary.html.twig
+   ▪️ field.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/field/field--text-with-summary.html.twig' -->
+
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="zonaAbonados"><p><a href="/secretaria-virtual">Secretaría virtual</a></p></div></div>
+      
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/field/field--text-with-summary.html.twig' -->
+
+
+  </div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block.html.twig' -->
+
+
+  </div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/layout/region.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ region--header.html.twig
+   ✅ region.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/layout/region.html.twig' -->
+  <div class="region region-header">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ block--ccvm-site-branding.html.twig
+   ✅ block--system-branding-block.html.twig
+   ▪️ block--system.html.twig
+   ▪️ block.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block--system-branding-block.html.twig' -->
+<div id="block-ccvm-site-branding" class="block block-system block-system-branding-block">
+  
+    
+        <a href="/" rel="home" class="site-logo">
+      <img src="/sites/default/files/HORIZONTAL%20RCCVM-ORIGINAL.jpg" alt="Inicio" />
+    </a>
+      </div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block--system-branding-block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ block--ccvm-main-menu.html.twig
+   ▪️ block--system-menu-block--main.html.twig
+   ✅ block--system-menu-block.html.twig
+   ▪️ block--system.html.twig
+   ▪️ block.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block--system-menu-block.html.twig' -->
+<nav role="navigation" aria-labelledby="block-ccvm-main-menu-menu" id="block-ccvm-main-menu" class="block block-menu navigation menu--main">
+            
+  <span class="visually-hidden" id="block-ccvm-main-menu-menu">Navegación principal</span>
+  
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'menu__main' -->
+<!-- FILE NAME SUGGESTIONS:
+   ✅ menu--main.html.twig
+   ✅ menu--main.html.twig
+   ▪️ menu.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/navigation/menu--main.html.twig' -->
+
+    
+
+    <ul class="menu menu--main nav">
+                      <li class="menu-icon menu-icon-5 expanded dropdown first">
+                
+                                      
+                        <a href="" class="menu-icon menu-icon-5 expanded dropdown first dropdown-toggle" data-toggle="dropdown">El Club <span class="caret"></span></a>
+                      
+
+    <ul class="dropdown-menu">
+                      <li class="menu-icon menu-icon-122 first">
+                
+                        <a href="/el-club/historia" class="menu-icon menu-icon-122 first" data-drupal-link-system-path="node/2849">Historia</a>
+              </li>
+                      <li class="menu-icon menu-icon-123">
+                
+                        <a href="/el-club/plan-estrategico" class="menu-icon menu-icon-123" data-drupal-link-system-path="node/2850">Plan Estratégico</a>
+              </li>
+                      <li class="menu-icon menu-icon-124">
+                
+                        <a href="/el-club/carta-de-servicios" class="menu-icon menu-icon-124" data-drupal-link-system-path="node/2851">Carta de Servicios</a>
+              </li>
+                      <li class="menu-icon menu-icon-14">
+                
+                        <a href="/el-club/instalaciones" class="menu-icon menu-icon-14" data-drupal-link-system-path="node/3195">Instalaciones</a>
+              </li>
+                      <li class="menu-icon menu-icon-215">
+                
+                        <a href="/el-club/horarios" class="menu-icon menu-icon-215" data-drupal-link-system-path="node/2775">Horarios</a>
+              </li>
+                      <li class="menu-icon menu-icon-125">
+                
+                        <a href="/el-club/consejo-de-administracion" class="menu-icon menu-icon-125" data-drupal-link-system-path="el-club/consejo-de-administracion">Consejo de Administración</a>
+              </li>
+                      <li class="menu-icon menu-icon-126">
+                
+                        <a href="/el-club/equipo-directivo" class="menu-icon menu-icon-126" data-drupal-link-system-path="el-club/equipo-directivo">Equipo Directivo</a>
+              </li>
+                      <li class="menu-icon menu-icon-193 last">
+                
+                        <a href="/el-club/comites-deportivos" class="menu-icon menu-icon-193 last" data-drupal-link-system-path="node/3278">Comités Deportivos</a>
+              </li>
+        </ul>
+
+  
+              </li>
+                      <li class="menu-icon menu-icon-7 expanded dropdown">
+                
+                                      
+                        <a href="" class="menu-icon menu-icon-7 expanded dropdown dropdown-toggle" data-toggle="dropdown">Deportes <span class="caret"></span></a>
+                      
+
+    <ul class="dropdown-menu">
+                      <li class="menu-icon menu-icon-131 first">
+                
+                        <a href="/deportes/ajedrez" class="menu-icon menu-icon-131 first" data-drupal-link-system-path="node/3110">Ajedrez</a>
+              </li>
+                      <li class="menu-icon menu-icon-132">
+                
+                        <a href="/deportes/bridge" class="menu-icon menu-icon-132" data-drupal-link-system-path="node/3158">Bridge</a>
+              </li>
+                      <li class="menu-icon menu-icon-133">
+                
+                        <a href="/deportes/croquet" class="menu-icon menu-icon-133" data-drupal-link-system-path="node/3159">Croquet</a>
+              </li>
+                      <li class="menu-icon menu-icon-134">
+                
+                        <a href="/deportes/fitness" class="menu-icon menu-icon-134" data-drupal-link-system-path="node/3111">Fitness</a>
+              </li>
+                      <li class="menu-icon menu-icon-69">
+                
+                        <a href="/deportes/golf" class="menu-icon menu-icon-69" data-drupal-link-system-path="node/2543">Golf</a>
+              </li>
+                      <li class="menu-icon menu-icon-135">
+                
+                        <a href="/deportes/hipica" class="menu-icon menu-icon-135" data-drupal-link-system-path="node/3112">Hípica</a>
+              </li>
+                      <li class="menu-icon menu-icon-136">
+                
+                        <a href="/deportes/hockey" class="menu-icon menu-icon-136" data-drupal-link-system-path="node/3113">Hockey</a>
+              </li>
+                      <li class="menu-icon menu-icon-137">
+                
+                        <a href="/deportes/natacion" class="menu-icon menu-icon-137" data-drupal-link-system-path="node/3126">Natación</a>
+              </li>
+                      <li class="menu-icon menu-icon-138">
+                
+                        <a href="/deportes/padel" class="menu-icon menu-icon-138" data-drupal-link-system-path="node/3127">Pádel</a>
+              </li>
+                      <li class="menu-icon menu-icon-139">
+                
+                        <a href="/deportes/patinaje" class="menu-icon menu-icon-139" data-drupal-link-system-path="node/3128">Patinaje</a>
+              </li>
+                      <li class="menu-icon menu-icon-140">
+                
+                        <a href="/deportes/squash" class="menu-icon menu-icon-140" data-drupal-link-system-path="node/3129">Squash</a>
+              </li>
+                      <li class="menu-icon menu-icon-141 last">
+                
+                        <a href="/deportes/tenis" class="menu-icon menu-icon-141 last" data-drupal-link-system-path="node/3130">Tenis</a>
+              </li>
+        </ul>
+
+  
+              </li>
+                      <li class="menu-icon menu-icon-6">
+                
+                        <a href="/escuelas-y-campamentos" class="menu-icon menu-icon-6" data-drupal-link-system-path="node/2749">Escuelas y Campamentos</a>
+              </li>
+                      <li class="menu-icon menu-icon-8">
+                
+                        <a href="/sociocultural" class="menu-icon menu-icon-8" data-drupal-link-system-path="node/2759">Sociocultural</a>
+              </li>
+                      <li class="menu-icon menu-icon-9 expanded dropdown">
+                
+                                      
+                        <a href="" class="menu-icon menu-icon-9 expanded dropdown dropdown-toggle" data-toggle="dropdown">Eventos y Restauración <span class="caret"></span></a>
+                      
+
+    <ul class="dropdown-menu">
+                      <li class="menu-icon menu-icon-109 first">
+                
+                        <a href="/eventos-y-restauracion/horarios-hosteleria" class="menu-icon menu-icon-109 first" data-drupal-link-system-path="node/2760">Horarios hostelería</a>
+              </li>
+                      <li class="menu-icon menu-icon-110">
+                
+                        <a href="/eventos-y-restauracion/eventos-hosteleria" class="menu-icon menu-icon-110" data-drupal-link-system-path="node/2761">Eventos</a>
+              </li>
+                      <li class="menu-icon menu-icon-111">
+                
+                        <a href="/eventos-y-restauracion/menus-cartas" class="menu-icon menu-icon-111" data-drupal-link-system-path="node/3288">Menús y Cartas</a>
+              </li>
+                      <li class="menu-icon menu-icon-112 last">
+                
+                        <a href="/eventos-y-restauracion/normas-de-utilizacion" class="menu-icon menu-icon-112 last" data-drupal-link-system-path="node/2766">Normas de utilización</a>
+              </li>
+        </ul>
+
+  
+              </li>
+                      <li class="menu-icon menu-icon-10 expanded dropdown">
+                
+                                      
+                        <a href="" class="menu-icon menu-icon-10 expanded dropdown dropdown-toggle" data-toggle="dropdown">Servicios <span class="caret"></span></a>
+                      
+
+    <ul class="dropdown-menu">
+                      <li class="menu-icon menu-icon-176 first">
+                
+                        <a href="/servicios/sauna" class="menu-icon menu-icon-176 first" data-drupal-link-system-path="node/3131">Sauna</a>
+              </li>
+                      <li class="menu-icon menu-icon-178">
+                
+                        <a href="/servicios/tiendas-deportivas" class="menu-icon menu-icon-178" data-drupal-link-system-path="node/3133">Tiendas deportivas</a>
+              </li>
+                      <li class="menu-icon menu-icon-179">
+                
+                        <a href="/servicios/emergencias-sanitarias" class="menu-icon menu-icon-179" data-drupal-link-system-path="node/2773">Emergencias Sanitarias</a>
+              </li>
+                      <li class="menu-icon menu-icon-180 last">
+                
+                        <a href="/servicios/bono-deportivo-anual" class="menu-icon menu-icon-180 last" data-drupal-link-system-path="node/3134">Bono deportivo anual</a>
+              </li>
+        </ul>
+
+  
+              </li>
+                      <li class="menu-icon menu-icon-15 last">
+                
+                        <a href="/correspondencias" class="menu-icon menu-icon-15 last" data-drupal-link-system-path="node/2711">Correspondencias</a>
+              </li>
+        </ul>
+
+  
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/navigation/menu--main.html.twig' -->
+
+
+  </nav>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block--system-menu-block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ block--ccvm-search-form-narrow.html.twig
+   ✅ block--search-form-block.html.twig
+   ▪️ block--search.html.twig
+   ▪️ block.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block--search-form-block.html.twig' -->
+<div class="search-block-form block block-search container-inline" data-drupal-selector="search-block-form" id="block-ccvm-search-form-narrow" role="search">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form' -->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/form/form.html.twig' -->
+<form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+  
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element' -->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/form/form-element.html.twig' -->
+<div class="js-form-item form-item js-form-type-search form-type-search js-form-item-keys form-item-keys form-no-label">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'form_element_label' -->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/form/form-element-label.html.twig' -->
+<label for="edit-keys" class="visually-hidden">Buscar</label>
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/form/form-element-label.html.twig' -->
+
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__search' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ input--search.html.twig
+   ✅ input.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/form/input.html.twig' -->
+<input title="Escriba lo que quiere buscar." data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search" />
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/form/input.html.twig' -->
+
+
+        </div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/form/form-element.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'container' -->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/form/container.html.twig' -->
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'input__submit' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ input--submit.html.twig
+   ✅ input.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/form/input.html.twig' -->
+<input data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Buscar" class="button js-form-submit form-submit" />
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/form/input.html.twig' -->
+
+</div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/form/container.html.twig' -->
+
+
+</form>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/form/form.html.twig' -->
+
+
+  </div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block--search-form-block.html.twig' -->
+
+
+  </div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/layout/region.html.twig' -->
+
+
+      </header>
+
+    
+  
+
+  
+
+  
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ region--highlighted.html.twig
+   ✅ region.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/layout/region.html.twig' -->
+  <div class="region region-highlighted">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ block--ccvm-messages.html.twig
+   ✅ block--system-messages-block.html.twig
+   ▪️ block--system.html.twig
+   ▪️ block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/themes/stable9/templates/block/block--system-messages-block.html.twig' -->
+<div data-drupal-messages-fallback class="hidden"></div>
+
+<!-- END OUTPUT from 'core/themes/stable9/templates/block/block--system-messages-block.html.twig' -->
+
+
+  </div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/layout/region.html.twig' -->
+
+
+
+  
+
+  <main role="main" class="node-">
+    <a id="main-content" tabindex="-1"></a>
+    <div class="layout-content">
+            
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ region--content.html.twig
+   ✅ region.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/layout/region.html.twig' -->
+  <div class="region region-content">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ block--ccvm-content.html.twig
+   ▪️ block--system-main-block.html.twig
+   ▪️ block--system.html.twig
+   ✅ block.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block.html.twig' -->
+<div id="block-ccvm-content" class="block block-system block-system-main-block">
+  
+    
+      No se ha encontrado la página solicitada.
+  </div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block.html.twig' -->
+
+
+  </div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/layout/region.html.twig' -->
+
+
+    </div>
+    
+    
+  </main>
+
+      <div role="contentinfo">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ region--prefooter.html.twig
+   ✅ region.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/layout/region.html.twig' -->
+  <div class="region region-prefooter">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ block--ccvm-app.html.twig
+   ▪️ block--block-content--4f7e6128-0e0b-499f-9082-0859a7f2d21f.html.twig
+   ▪️ block--block-content--id-view--ccvm-app--full.html.twig
+   ▪️ block--block-content--id--ccvm-app.html.twig
+   ▪️ block--block-content--view-type--basic--full.html.twig
+   ▪️ block--block-content--type--basic.html.twig
+   ▪️ block--block-content--view--full.html.twig
+   ▪️ block--block-content.html.twig
+   ✅ block.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block.html.twig' -->
+<div id="block-ccvm-app" class="block block-block-content block-block-content4f7e6128-0e0b-499f-9082-0859a7f2d21f">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ field--block-content--body--basic.html.twig
+   ▪️ field--block-content--body.html.twig
+   ▪️ field--block-content--basic.html.twig
+   ▪️ field--body.html.twig
+   ✅ field--text-with-summary.html.twig
+   ▪️ field.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/field/field--text-with-summary.html.twig' -->
+
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="bloqueApp"><div class="app"><h2>Aplicación de reservas</h2><p>En los siguientes enlaces podrá descargar la aplicación de reservas del Club.</p><a href="https://apps.apple.com/es/app/rccvm/id6739257771" target="_blank"><img src="/sites/default/files/Tema/apple.png" alt="Disponible en Apple Store" width="208" height="64" loading="lazy"></a><a href="https://play.google.com/store/apps/details?id=app.rccvm" target="_blank"><img src="/sites/default/files/Tema/google.png" alt="Disponible en Play Store" width="208" height="64" loading="lazy"></a></div><div class="login"><h2>Secretaría Virtual</h2><p>Acceda a la Secretaría Vitual aquí</p><p style="margin-top:20px;"><a href="/secretaria-virtual">Accede</a></p></div></div></div>
+      
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/field/field--text-with-summary.html.twig' -->
+
+
+  </div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ block--ccvm-patrocinadores.html.twig
+   ▪️ block--block-content--309c08cd-9b98-4981-a874-f953c3622e42.html.twig
+   ▪️ block--block-content--id-view--ccvm-patrocinadores--full.html.twig
+   ▪️ block--block-content--id--ccvm-patrocinadores.html.twig
+   ▪️ block--block-content--view-type--basic--full.html.twig
+   ▪️ block--block-content--type--basic.html.twig
+   ▪️ block--block-content--view--full.html.twig
+   ▪️ block--block-content.html.twig
+   ✅ block.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block.html.twig' -->
+<div id="block-ccvm-patrocinadores" class="block block-block-content block-block-content309c08cd-9b98-4981-a874-f953c3622e42">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ field--block-content--body--basic.html.twig
+   ▪️ field--block-content--body.html.twig
+   ▪️ field--block-content--basic.html.twig
+   ▪️ field--body.html.twig
+   ✅ field--text-with-summary.html.twig
+   ▪️ field.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/field/field--text-with-summary.html.twig' -->
+
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="patrocinadores"><div class="item"><a href="https://www.volvocars.com/es/" target="_blank"><img src="/sites/default/files/Tema/VOLVO_SEPARADO_NEGRO.jpg" alt="Volvo" width="1134" height="256" loading="lazy"></a></div><div class="item"><a href="/sites/default/files/users/user7/Caser RCCVM nº diciembre25.pdf" target="_blank"><img src="/sites/default/files/Tema/Caser%20Grupo%20Helvetia%20Positive_1A.jpg" alt="Caser Seguros" width="3000" height="1267" loading="lazy"></a></div><!--
+                
+            
+        
+    <div class="item">
+                                        <a href="https://www.elcorteingles.es/" target="_blank"><img src="/sites/default/files/Tema/ECI.jpg" alt="El Corte Inglés" width="1181" height="667"></a>
+                                    
+                            
+                    
+            
+    </div>
+                --><div class="item"><a href="https://www.caixabank.com" target="_blank"><img src="/sites/default/files/Tema/caixa.jpg" alt="CaixaBank" width="1181" height="319" loading="lazy"></a></div></div></div>
+      
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/field/field--text-with-summary.html.twig' -->
+
+
+  </div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ block--ccvm-prefooter.html.twig
+   ▪️ block--system-menu-block--prefooter.html.twig
+   ✅ block--system-menu-block.html.twig
+   ▪️ block--system.html.twig
+   ▪️ block.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block--system-menu-block.html.twig' -->
+<nav role="navigation" aria-labelledby="block-ccvm-prefooter-menu" id="block-ccvm-prefooter" class="block block-menu navigation menu--prefooter">
+            
+  <span class="visually-hidden" id="block-ccvm-prefooter-menu">PreFooter</span>
+  
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'menu__prefooter' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ menu--prefooter.html.twig
+   ✅ menu.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/navigation/menu.html.twig' -->
+
+              <ul class="menu">
+                    <li class="menu-icon menu-icon-50 menu-item">
+        <a href="/normativa" data-drupal-link-system-path="node/2776">Normativa</a>
+              </li>
+                <li class="menu-icon menu-icon-54 menu-item">
+        <a href="/opina-y-sugiere" data-drupal-link-system-path="node/2951">Opina y sugiere</a>
+              </li>
+                <li class="menu-icon menu-icon-51 menu-item">
+        <a href="/tarifas" data-drupal-link-system-path="node/2777">Tarifas</a>
+              </li>
+                <li class="menu-icon menu-icon-53 menu-item">
+        <a href="/trabaja-con-nosotros" data-drupal-link-system-path="node/2662">Trabaja con nosotros</a>
+              </li>
+                <li class="menu-icon menu-icon-55 menu-item">
+        <a href="/sites/default/files/ccvm-sistema-informacion-interna-canal-etico.pdf">Acceso al canal interno</a>
+              </li>
+                <li class="menu-icon menu-icon-52 menu-item">
+        <a href="/portal-de-transparencia" data-drupal-link-system-path="node/3759">Portal de Transparencia</a>
+              </li>
+        </ul>
+  
+
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/navigation/menu.html.twig' -->
+
+
+  </nav>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block--system-menu-block.html.twig' -->
+
+
+  </div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/layout/region.html.twig' -->
+
+
+    </div>
+   
+      <footer role="contentinfo">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ region--footer.html.twig
+   ✅ region.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/layout/region.html.twig' -->
+  <div class="region region-footer">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ block--ccvm-logofooter.html.twig
+   ▪️ block--block-content--b8d0ba36-3ebb-433f-87c3-e3c10a2d2788.html.twig
+   ▪️ block--block-content--id-view--ccvm-logofooter--full.html.twig
+   ▪️ block--block-content--id--ccvm-logofooter.html.twig
+   ▪️ block--block-content--view-type--basic--full.html.twig
+   ▪️ block--block-content--type--basic.html.twig
+   ▪️ block--block-content--view--full.html.twig
+   ▪️ block--block-content.html.twig
+   ✅ block.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block.html.twig' -->
+<div id="block-ccvm-logofooter" class="block block-block-content block-block-contentb8d0ba36-3ebb-433f-87c3-e3c10a2d2788">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ field--block-content--body--basic.html.twig
+   ▪️ field--block-content--body.html.twig
+   ▪️ field--block-content--basic.html.twig
+   ▪️ field--body.html.twig
+   ✅ field--text-with-summary.html.twig
+   ▪️ field.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/field/field--text-with-summary.html.twig' -->
+
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="logoFooter"><img src="/sites/default/files/Tema/HORIZONTAL RCCVM-ORIGINAL.png" alt="Logo CCVM" width="1381" height="305" loading="lazy"> <img src="/sites/default/files/Tema/logo75.png" alt="75 años" width="291" height="419" loading="lazy"></div></div>
+      
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/field/field--text-with-summary.html.twig' -->
+
+
+  </div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ block--ccvm-footer1.html.twig
+   ▪️ block--block-content--e5b07a78-2aa0-4051-b404-4aa76c0666be.html.twig
+   ▪️ block--block-content--id-view--ccvm-footer1--full.html.twig
+   ▪️ block--block-content--id--ccvm-footer1.html.twig
+   ▪️ block--block-content--view-type--basic--full.html.twig
+   ▪️ block--block-content--type--basic.html.twig
+   ▪️ block--block-content--view--full.html.twig
+   ▪️ block--block-content.html.twig
+   ✅ block.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block.html.twig' -->
+<div id="block-ccvm-footer1" class="block block-block-content block-block-contente5b07a78-2aa0-4051-b404-4aa76c0666be">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ field--block-content--body--basic.html.twig
+   ▪️ field--block-content--body.html.twig
+   ▪️ field--block-content--basic.html.twig
+   ▪️ field--body.html.twig
+   ✅ field--text-with-summary.html.twig
+   ▪️ field.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/field/field--text-with-summary.html.twig' -->
+
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2>En contacto</h2><p>Centralita: 91 550 20 10</p><ul><li>Abonados: <a href="mailto:abonados@ccvm.es">abonados@ccvm.es</a></li><li>Deportes: <a href="mailto:deportes@ccvm.es">deportes@ccvm.es</a></li><li>Contabilidad: <a href="mailto:contabilidad@ccvm.es">contabilidad@ccvm.es</a></li><li>Personal: <a href="mailto:personal@ccvm.es">personal@ccvm.es</a></li></ul></div>
+      
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/field/field--text-with-summary.html.twig' -->
+
+
+  </div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ block--ccvm-muchomas.html.twig
+   ▪️ block--system-menu-block--footer-2.html.twig
+   ✅ block--system-menu-block.html.twig
+   ▪️ block--system.html.twig
+   ▪️ block.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block--system-menu-block.html.twig' -->
+<nav role="navigation" aria-labelledby="block-ccvm-muchomas-menu" id="block-ccvm-muchomas" class="block block-menu navigation menu--footer-2">
+      
+  <span id="block-ccvm-muchomas-menu">Mucho más</span>
+  
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'menu__footer_2' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ menu--footer-2.html.twig
+   ✅ menu.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/navigation/menu.html.twig' -->
+
+              <ul class="menu">
+                    <li class="menu-icon menu-icon-118 menu-item">
+        <a href="/aviso-legal" data-drupal-link-system-path="node/2767">Aviso legal</a>
+              </li>
+                <li class="menu-icon menu-icon-43 menu-item">
+        <a href="/mapa-web" data-drupal-link-system-path="node/3015">Mapa web</a>
+              </li>
+                <li class="menu-icon menu-icon-44 menu-item">
+        <a href="/es/proteccion-de-datos" data-drupal-link-system-path="node/2768">Protección de datos y privacidad</a>
+              </li>
+                <li class="menu-icon menu-icon-45 menu-item">
+        <a href="/politica-de-cookies" data-drupal-link-system-path="node/2769">Política de cookies</a>
+              </li>
+                <li class="menu-icon menu-icon-47 menu-item">
+        <a href="/seguridad-y-proteccion-compradores" data-drupal-link-system-path="node/2770">Seguridad y protección a compradores</a>
+              </li>
+                <li class="menu-icon menu-icon-119 menu-item">
+        <a href="/politica-de-cancelaciones" data-drupal-link-system-path="node/2771">Política de cancelaciones</a>
+              </li>
+                <li class="menu-icon menu-icon-120 menu-item">
+        <a href="/soporte-de-aplicaciones" data-drupal-link-system-path="node/2772">Soporte de aplicaciones</a>
+              </li>
+                <li class="menu-icon menu-icon-46 menu-item">
+        <a href="/accesibilidad" data-drupal-link-system-path="node/3287">Accesibilidad</a>
+              </li>
+        </ul>
+  
+
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/navigation/menu.html.twig' -->
+
+
+  </nav>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block--system-menu-block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ block--ccvm-comollegar.html.twig
+   ▪️ block--block-content--91ba57d5-3a50-4985-b5aa-a13324f1bb08.html.twig
+   ▪️ block--block-content--id-view--ccvm-comollegar--full.html.twig
+   ▪️ block--block-content--id--ccvm-comollegar.html.twig
+   ▪️ block--block-content--view-type--basic--full.html.twig
+   ▪️ block--block-content--type--basic.html.twig
+   ▪️ block--block-content--view--full.html.twig
+   ▪️ block--block-content.html.twig
+   ✅ block.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block.html.twig' -->
+<div id="block-ccvm-comollegar" class="block block-block-content block-block-content91ba57d5-3a50-4985-b5aa-a13324f1bb08">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ field--block-content--body--basic.html.twig
+   ▪️ field--block-content--body.html.twig
+   ▪️ field--block-content--basic.html.twig
+   ▪️ field--body.html.twig
+   ✅ field--text-with-summary.html.twig
+   ▪️ field.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/field/field--text-with-summary.html.twig' -->
+
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2>Dónde estamos</h2><p>El Real Club de Campo Villa de Madrid está situado en la carretera de Castilla, km 2 de Madrid 28040. Distrito Moncloa-Aravaca.</p><p>Autobuses desde Moncloa: 160, 161 y A.</p><h2><a href="/servicios/emergencias-sanitarias">Emergencias Sanitarias</a></h2><p><a href="tel:900907790" title="Llamar a 900 90 77 90">900 90 77 90</a></p></div>
+      
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/field/field--text-with-summary.html.twig' -->
+
+
+  </div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ block--ccvm-redesfooter.html.twig
+   ▪️ block--block-content--4f545450-2452-4dfe-9ffd-b1322814f071.html.twig
+   ▪️ block--block-content--id-view--ccvm-redesfooter--full.html.twig
+   ▪️ block--block-content--id--ccvm-redesfooter.html.twig
+   ▪️ block--block-content--view-type--basic--full.html.twig
+   ▪️ block--block-content--type--basic.html.twig
+   ▪️ block--block-content--view--full.html.twig
+   ▪️ block--block-content.html.twig
+   ✅ block.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block.html.twig' -->
+<div id="block-ccvm-redesfooter" class="block block-block-content block-block-content4f545450-2452-4dfe-9ffd-b1322814f071">
+  
+    
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ field--block-content--body--basic.html.twig
+   ▪️ field--block-content--body.html.twig
+   ▪️ field--block-content--basic.html.twig
+   ▪️ field--body.html.twig
+   ✅ field--text-with-summary.html.twig
+   ▪️ field.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/field/field--text-with-summary.html.twig' -->
+
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="redesFooter"><div class="grupo"><div class="redesFooter1"><h2>Estamos en las redes</h2></div><div class="redesFooter2"><ul><li><a href="https://www.facebook.com/ccvm.es"><em><i class="fa-brands fa-facebook-f">&nbsp;</i></em></a></li><li><a href="https://twitter.com/ccvmoficial"><em><i class="fa-brands fa-x-twitter">&nbsp;</i></em></a></li><li><a href="https://www.instagram.com/ccvmoficial/"><em><i class="fa-brands fa-instagram">&nbsp;</i></em></a></li><li><a href="https://www.youtube.com/@ClubdeCampoVilladeMadrid"><em><i class="fa-brands fa-youtube">&nbsp;</i></em></a></li><li><a href="https://www.linkedin.com/company/11187182/"><em><i class="fa-brands fa-linkedin-in">&nbsp;</i></em></a></li></ul></div></div><div class="redesFooter3"><img src="/sites/default/files/Tema/ccvm-bnrb-caser_blanco.png" alt="Caser Seguros" width="250" height="109" loading="lazy"></div></div></div>
+      
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/field/field--text-with-summary.html.twig' -->
+
+
+  </div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/block/block.html.twig' -->
+
+
+  </div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/layout/region.html.twig' -->
+
+
+    </footer>
+  
+</div>
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/layout/page.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'core/themes/stable9/templates/content/off-canvas-page-wrapper.html.twig' -->
+
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"es","currentQuery":{"file":"instalaciones\/golf_recorrido_negro_hoyo_1.jpg"}},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"eu_cookie_compliance":{"cookie_policy_version":"1.0.0","popup_enabled":true,"popup_agreed_enabled":false,"popup_hide_agreed":false,"popup_clicking_confirmation":false,"popup_scrolling_confirmation":false,"popup_html_info":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EOpciones de privacidad\u003C\/button\u003E\n\u003Cdiv aria-labelledby=\u0022popup-text\u0022  class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--categories\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n        \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022 role=\u0022document\u0022\u003E\n      \u003Ch2\u003EEn CCVM utilizamos cookies\u003C\/h2\u003E\u003Cp\u003EEn el Club de Campo Villa de Madrid utilizamos cookies propias y de terceros para analizar los h\u00e1bitos de navegaci\u00f3n de los usuarios y mejorar as\u00ed nuestros servicios. Por favor, lea la Pol\u00edtica de cookies para m\u00e1s informaci\u00f3n sobre el tipo de cookies que usamos, su finalidad y la forma de desactivarlas.\u003C\/p\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003EM\u00e1s informaci\u00f3n sobre la pol\u00edtica de Cookies\u003C\/button\u003E\n          \u003C\/div\u003E\n\n          \u003Cdiv id=\u0022eu-cookie-compliance-categories\u0022 class=\u0022eu-cookie-compliance-categories\u0022\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 class=\u0022eu-cookie-compliance-category-checkbox\u0022 id=\u0022cookie-category-necesarias\u0022\n                     value=\u0022necesarias\u0022\n                      checked                       \u003E\n              \u003Clabel for=\u0022cookie-category-necesarias\u0022\u003ENecesarias\u003C\/label\u003E\n            \u003C\/div\u003E\n                      \u003C\/div\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 class=\u0022eu-cookie-compliance-category-checkbox\u0022 id=\u0022cookie-category-analiticas\u0022\n                     value=\u0022analiticas\u0022\n                                           \u003E\n              \u003Clabel for=\u0022cookie-category-analiticas\u0022\u003EAnal\u00edticas\u003C\/label\u003E\n            \u003C\/div\u003E\n                      \u003C\/div\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 class=\u0022eu-cookie-compliance-category-checkbox\u0022 id=\u0022cookie-category-rendimiento\u0022\n                     value=\u0022rendimiento\u0022\n                                           \u003E\n              \u003Clabel for=\u0022cookie-category-rendimiento\u0022\u003ERendimiento\u003C\/label\u003E\n            \u003C\/div\u003E\n                      \u003C\/div\u003E\n                          \u003Cdiv class=\u0022eu-cookie-compliance-categories-buttons\u0022\u003E\n            \u003Cbutton type=\u0022button\u0022\n                    class=\u0022eu-cookie-compliance-save-preferences-button  button button--small\u0022\u003EGuardar configuraci\u00f3n\u003C\/button\u003E\n          \u003C\/div\u003E\n              \u003C\/div\u003E\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons eu-cookie-compliance-has-categories\u0022\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-compliance-default-button eu-cookie-compliance-reject-button button button--small\u0022\u003ERechazar\u003C\/button\u003E\n            \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button button button--small button--primary\u0022\u003EAceptar todas\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button visually-hidden button button--small\u0022\u003ERechazar\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EOpciones de privacidad\u003C\/button\u003E\n\u003Cdiv aria-labelledby=\u0022popup-text\u0022  class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--categories\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n        \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022 role=\u0022document\u0022\u003E\n      \n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003EM\u00e1s informaci\u00f3n sobre la pol\u00edtica de Cookies\u003C\/button\u003E\n          \u003C\/div\u003E\n\n          \u003Cdiv id=\u0022eu-cookie-compliance-categories\u0022 class=\u0022eu-cookie-compliance-categories\u0022\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 class=\u0022eu-cookie-compliance-category-checkbox\u0022 id=\u0022cookie-category-necesarias\u0022\n                     value=\u0022necesarias\u0022\n                      checked                       \u003E\n              \u003Clabel for=\u0022cookie-category-necesarias\u0022\u003ENecesarias\u003C\/label\u003E\n            \u003C\/div\u003E\n                      \u003C\/div\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 class=\u0022eu-cookie-compliance-category-checkbox\u0022 id=\u0022cookie-category-analiticas\u0022\n                     value=\u0022analiticas\u0022\n                                           \u003E\n              \u003Clabel for=\u0022cookie-category-analiticas\u0022\u003EAnal\u00edticas\u003C\/label\u003E\n            \u003C\/div\u003E\n                      \u003C\/div\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 class=\u0022eu-cookie-compliance-category-checkbox\u0022 id=\u0022cookie-category-rendimiento\u0022\n                     value=\u0022rendimiento\u0022\n                                           \u003E\n              \u003Clabel for=\u0022cookie-category-rendimiento\u0022\u003ERendimiento\u003C\/label\u003E\n            \u003C\/div\u003E\n                      \u003C\/div\u003E\n                          \u003Cdiv class=\u0022eu-cookie-compliance-categories-buttons\u0022\u003E\n            \u003Cbutton type=\u0022button\u0022\n                    class=\u0022eu-cookie-compliance-save-preferences-button  button button--small\u0022\u003EGuardar configuraci\u00f3n\u003C\/button\u003E\n          \u003C\/div\u003E\n              \u003C\/div\u003E\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons eu-cookie-compliance-has-categories\u0022\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-compliance-default-button eu-cookie-compliance-reject-button button button--small\u0022\u003ERechazar\u003C\/button\u003E\n            \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button button button--small button--primary\u0022\u003EAceptar todas\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button visually-hidden button button--small\u0022\u003ERechazar\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","mobile_breakpoint":768,"popup_html_agreed":false,"popup_use_bare_css":false,"popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"\/politica-de-cookies","popup_link_new_window":true,"popup_position":false,"fixed_top_position":true,"popup_language":"es","store_consent":false,"better_support_for_screen_readers":false,"cookie_name":"","reload_page":false,"domain":"","domain_all_sites":false,"popup_eu_only":false,"popup_eu_only_js":false,"cookie_lifetime":100,"cookie_session":0,"set_cookie_session_zero_on_disagree":0,"disagree_do_not_show_popup":false,"method":"categories","automatic_cookies_removal":true,"allowed_cookies":"","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EOpciones de privacidad\u003C\/button\u003E\n\u003Cdiv aria-labelledby=\u0022popup-text\u0022 class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022 role=\u0022document\u0022\u003E\n      \u003Ch2\u003EEn CCVM utilizamos cookies\u003C\/h2\u003E\u003Cp\u003EHa establecido la configuraci\u00f3n de cookies.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button  button button--small button--primary\u0022\u003ERechazar\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","withdraw_enabled":true,"reload_options":0,"reload_routes_list":"","withdraw_button_on_info_popup":false,"cookie_categories":["necesarias","analiticas","rendimiento"],"cookie_categories_details":{"necesarias":{"uuid":"32d07195-c38c-4753-a8db-cff1d998bd50","langcode":"es","status":true,"dependencies":[],"id":"necesarias","label":"Necesarias","description":"","checkbox_default_state":"checked","weight":-9},"analiticas":{"uuid":"22daaab4-e98f-42a4-a52b-2cb4a5df6ce0","langcode":"es","status":true,"dependencies":[],"id":"analiticas","label":"Anal\u00edticas","description":"","checkbox_default_state":"unchecked","weight":-8},"rendimiento":{"uuid":"1c54e91d-9347-4aca-a6e3-e8cf88d30f8b","langcode":"es","status":true,"dependencies":[],"id":"rendimiento","label":"Rendimiento","description":"","checkbox_default_state":"unchecked","weight":-7}},"enable_save_preferences_button":true,"cookie_value_disagreed":"0","cookie_value_agreed_show_thank_you":"1","cookie_value_agreed":"2","containing_element":"body","settings_tab_enabled":true,"olivero_primary_button_classes":" button button--small button--primary","olivero_secondary_button_classes":" button button--small","close_button_action":"close_banner","open_by_default":true,"modules_allow_popup":true,"hide_the_banner":false,"geoip_match":true},"ajaxTrustedUrl":{"\/search\/node":true},"user":{"uid":0,"permissionsHash":"77c387a701a92a6e05fd37c492193dadd93fa43ca28e7287b0ab5803ee38ade5"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.7.1"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/sites/default/files/languages/es_DTaV-ZmD7RbbWcknwqT9KT9VpOPZ4DUzm7uoHabQ6-4.js?t68d0u"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=10.3.0"></script>
+<script src="/core/misc/drupal.js?v=10.3.0"></script>
+<script src="/core/misc/drupal.init.js?v=10.3.0"></script>
+<script src="https://static.addtoany.com/menu/page.js" async></script>
+<script src="/modules/contrib/addtoany/js/addtoany.js?v=10.3.0"></script>
+<script src="/themes/ccvm/js/ccvm.js?v=10.3.0"></script>
+<script src="//cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
+<script src="/core/assets/vendor/js-cookie/js.cookie.min.js?v=3.0.5"></script>
+<script src="/modules/contrib/eu_cookie_compliance/js/eu_cookie_compliance.min.js?v=10.3.0" defer></script>
+
+      <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+      </div>
+      <!-- CONVERSION TAG -->
+      <script type="text/javascript">
+      (function () {
+          var tss = document.createElement('script');
+          tss.type = 'text/javascript';
+          tss.async = true;
+          tss.src = 'http'+('https:'==document.location.protocol?'s':'')+'://cstatic.weborama.fr/js/advertiserv2/adperf_conversion.js';
+          var ss = document.getElementsByTagName('script')[0];
+          ss.parentNode.insertBefore(tss, ss);
+          var timer = window.setInterval(function(){
+          if (typeof(window.adperfTracker) != "undefined") {
+
+          var adperftrackobj = {
+              client : ""      /* set your client id here */
+              ,amount : "0.0"   /* set the total price here */
+              ,invoice_id : Math.floor(Math.random()*1e8)  /* set your invoice id here */
+              ,quantity : 0     /* set the number of items purchased */
+              ,is_client : 0    /* set to 1 if the client is a new client */
+              ,optional_parameters : {
+                  "N1" : "0" /* to set */
+                  ,"N2" : "0" /* to set */
+                  ,"N3" : "0" /* to set */
+                  /* to set free parameter follow this pattern : */
+                  /* ,"customer_type" : "abc" */
+              }
+
+              /* don't edit below this point */
+              ,fullhost : 'clubdecampovillademadrid.solution.weborama.fr'
+              ,site : 5012
+              ,conversion_page : 1
+          };
+          try{window.adperfTracker.track( adperftrackobj );}catch(err){}
+          window.clearInterval(timer);
+          }}, 500);
+      })();
+      </script>
+  </body>
+</html>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/ccvm/templates/layout/html.html.twig' -->
+
