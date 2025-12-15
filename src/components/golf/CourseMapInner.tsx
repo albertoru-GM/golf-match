@@ -52,11 +52,16 @@ function MapInteractionOverlay({
             const newCourses = await searchGolfCoursesInBounds(south, west, north, east);
 
             // Merge with existing real courses
+            // Merge with existing real courses
             const combinedCourses = [...initialCourses];
             newCourses.forEach(osmCourse => {
+                // More aggressive duplicate detection (~1km) to prevent ghost pins near real ones
                 const isDuplicate = combinedCourses.some(
-                    dbCourse => dbCourse.name === osmCourse.name &&
-                        Math.abs((dbCourse.lat || 0) - (osmCourse.lat || 0)) < 0.001
+                    dbCourse =>
+                        // Name match (fuzzy)
+                        (dbCourse.name.toLowerCase().includes(osmCourse.name.toLowerCase()) || osmCourse.name.toLowerCase().includes(dbCourse.name.toLowerCase())) ||
+                        // Proximity match (0.02 deg ~ 2km)
+                        (Math.abs((dbCourse.lat || 0) - (osmCourse.lat || 0)) < 0.02 && Math.abs((dbCourse.lng || 0) - (osmCourse.lng || 0)) < 0.02)
                 );
                 if (!isDuplicate) {
                     combinedCourses.push(osmCourse);
@@ -146,14 +151,16 @@ export default function CourseMapInner({ courses: initialCourses, center, zoom }
                                         </a>
                                     )}
 
-                                    {/* Booking Link - Always Show */}
-                                    <button
-                                        onClick={() => window.open(course.booking_url || `https://www.google.com/search?q=${encodeURIComponent(course.name + ' golf booking')}`, '_blank')}
-                                        className="w-full bg-red-600 text-white text-xs font-bold py-2 px-3 rounded flex items-center justify-center hover:bg-red-700 transition-colors shadow-sm"
-                                    >
-                                        Reservar
-                                        <ArrowRight className="w-3 h-3 ml-1" />
-                                    </button>
+                                    {/* Booking Link - Only Show if Valid URL Exists */}
+                                    {course.booking_url && course.booking_url.startsWith('http') && (
+                                        <button
+                                            onClick={() => window.open(course.booking_url, '_blank')}
+                                            className="w-full bg-red-600 text-white text-xs font-bold py-2 px-3 rounded flex items-center justify-center hover:bg-red-700 transition-colors shadow-sm"
+                                        >
+                                            Reservar
+                                            <ArrowRight className="w-3 h-3 ml-1" />
+                                        </button>
+                                    )}
                                 </div>
                             </div>
                         </Popup>

@@ -67,7 +67,8 @@ export async function searchGolfCoursesInBounds(
                 lat: lat,
                 lng: lng,
                 // Try to find a website, otherwise search link logic could go here
-                booking_url: el.tags?.website || `https://www.google.com/search?q=${encodeURIComponent(name + ' golf booking')}`,
+                // Try to find a website, otherwise leave empty (UI will hide button)
+                booking_url: el.tags?.website || '',
                 address: el.tags?.['addr:street'] || location
             };
         }).filter(c => c.lat !== 0 && c.lng !== 0); // basic validation
