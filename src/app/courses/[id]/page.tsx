@@ -23,17 +23,22 @@ export default function CourseDetailPage({ params }: CoursePageProps) {
 
     useEffect(() => {
         const fetchCourse = async () => {
-            // Check if Supabase is configured
+            // 1. Priority Check: Instant Mock Data
+            // If the ID exists in our local verified data, use it immediately.
+            // This bypasses the database fetch delay (fixing the "thinking" issue).
+            const localMock = mockCourses.find(c => c.id === params.id);
+            if (localMock) {
+                setCourse(localMock);
+                setLoading(false);
+                return;
+            }
+
+            // 2. Fallback: Supabase (only for non-mock IDs)
             const isSupabaseConfigured = process.env.NEXT_PUBLIC_SUPABASE_URL &&
                 process.env.NEXT_PUBLIC_SUPABASE_URL !== 'your-project-url' &&
                 process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
             if (!isSupabaseConfigured) {
-                console.log('Supabase not configured, using mock data');
-                const mockCourse = mockCourses.find(c => c.id === params.id);
-                if (mockCourse) {
-                    setCourse(mockCourse);
-                }
                 setLoading(false);
                 return;
             }
@@ -54,20 +59,9 @@ export default function CourseDetailPage({ params }: CoursePageProps) {
 
                 if (error) throw error;
 
-                // Merge with mock data if needed
-                const mockCourse = mockCourses.find(c => c.name === data.name);
-                const mergedCourse = {
-                    ...data,
-                    booking_url: data.booking_url || mockCourse?.booking_url
-                };
-
-                setCourse(mergedCourse);
+                setCourse(data);
             } catch (error) {
                 console.error('Error fetching course:', error);
-                const mockCourse = mockCourses.find(c => c.id === params.id);
-                if (mockCourse) {
-                    setCourse(mockCourse);
-                }
             } finally {
                 setLoading(false);
             }
