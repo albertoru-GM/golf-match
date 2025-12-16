@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, use } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { supabase } from '@/lib/supabase';
@@ -11,12 +11,13 @@ import BookingModal from '@/components/golf/BookingModal';
 import { mockCourses } from '@/lib/mockCourses';
 
 interface CoursePageProps {
-    params: {
+    params: Promise<{
         id: string;
-    };
+    }>;
 }
 
 export default function CourseDetailPage({ params }: CoursePageProps) {
+    const { id } = use(params);
     const [course, setCourse] = useState<Course | null>(null);
     const [loading, setLoading] = useState(true);
     const [showBookingModal, setShowBookingModal] = useState(false);
@@ -26,7 +27,7 @@ export default function CourseDetailPage({ params }: CoursePageProps) {
             // 1. Priority Check: Instant Mock Data
             // If the ID exists in our local verified data, use it immediately.
             // This bypasses the database fetch delay (fixing the "thinking" issue).
-            const localMock = mockCourses.find(c => c.id === params.id);
+            const localMock = mockCourses.find(c => c.id === id);
             if (localMock) {
                 setCourse(localMock);
                 setLoading(false);
@@ -48,7 +49,7 @@ export default function CourseDetailPage({ params }: CoursePageProps) {
                 const fetchPromise = supabase
                     .from('courses')
                     .select('*')
-                    .eq('id', params.id)
+                    .eq('id', id)
                     .single();
 
                 const timeoutPromise = new Promise((_, reject) =>
@@ -67,10 +68,10 @@ export default function CourseDetailPage({ params }: CoursePageProps) {
             }
         };
 
-        if (params.id) {
+        if (id) {
             fetchCourse();
         }
-    }, [params.id]);
+    }, [id]);
 
     const handleBooking = () => {
         if (course?.booking_url) {
